@@ -8,7 +8,7 @@ In parallel, for each inoculum, we measured soil physico-chemistry and extract D
 
 1. Soil properties are included in the file ``XYZ.XYZ``
 
-2. Soil fungal community structure can be found in the file ``XYZ.txt``, where rows are inocula and number within each cell are the number of reads found in each inoculum for the corresponding column (fungal sequence variant)
+2. Soil fungal community structure can be found in the file ``XYZ.txt``, where rows are inocula and number within each cell are the number of reads found in each inoculum for the corresponding column (fungal sequence variant). We also provide raw sequence files within the sequence read archives (SRA) under the BioProject # XYZ. The SRR numbers associated with all samples can be found in our file ``SRRs.txt``.
 
 3. *Lonicera* growth can be found in the file ``XYZ.XYZ``
 
