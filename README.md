@@ -24,7 +24,7 @@ In parallel, for each inoculum, we measured soil physico-chemistry and extract D
 <br>
 
 ## Soil properties : ``XYZ.XYZ``
-------------
+
 
 [.................]
 
@@ -34,7 +34,7 @@ In parallel, for each inoculum, we measured soil physico-chemistry and extract D
 <br>
 
 ## Soil fungal communities : ``XYZ.txt``
-------------
+
 
 [.................]
 
@@ -42,7 +42,7 @@ In parallel, for each inoculum, we measured soil physico-chemistry and extract D
 <br>
 
 ## *Lonicera* growth response : ``XYZ.XYZ``
-------------
+
 
 [.................]
 
@@ -55,7 +55,7 @@ Below, we outline data analyses allowing us to link soil properties and fungal c
 <br>
 
 ## Bioinformatics
----------------
+
 Before proceeding with statistical analyses, we first processed raw ``.fastq`` sequence files using the R package ``dada2``. First, we quality-filtered sequences in order to [.........]
 
 ```R
