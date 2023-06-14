@@ -1,5 +1,7 @@
 # Response of *Lonicera maackii* to soil chemistry and fungal communities. 
 
+BLABLABLA
+
 This project aims at disentangling the relative contribution of soil physico-chemistry and fungal communities in driving *Lonicera maackii* performance. In 2019, we sampled 50 soil inocula, from 5 distinct sites, and grew *Lonicera maackii* in these inocula in a growth chamber, for 12 weeks. 
 
 We measured shoot dry mass, root length and average diameter, and root fungal colonization as response variables.
@@ -11,6 +13,7 @@ In parallel, for each inoculum, we measured soil physico-chemistry and extract D
 2. Soil fungal community structure can be found in the file ``XYZ.txt``, where rows are inocula and number within each cell are the number of reads found in each inoculum for the corresponding column (fungal sequence variant). We also provide raw sequence files within the sequence read archives (SRA) under the BioProject # XYZ. The SRR numbers associated with all samples can be found in our file ``SRRs.txt``.
 
 3. *Lonicera* growth can be found in the file ``XYZ.XYZ``
+
 
 
 <br>
