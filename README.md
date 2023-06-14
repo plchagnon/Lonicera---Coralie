@@ -1,6 +1,5 @@
 # Response of *Lonicera maackii* to soil chemistry and fungal communities. 
 
-BLABLABLA
 
 This project aims at disentangling the relative contribution of soil physico-chemistry and fungal communities in driving *Lonicera maackii* performance. In 2019, we sampled 50 soil inocula, from 5 distinct sites, and grew *Lonicera maackii* in these inocula in a growth chamber, for 12 weeks. 
 
