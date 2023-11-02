@@ -61,6 +61,19 @@ Afterwards, we cleaned the output file `OutputITS.RData`, by removing unused obj
 1. A metacommunity (``comm``) with communities (i.e., samples, as rows) and fungi as columns. All sites with less than 5k reads are removed, and the remaining are rarefied at 32 912 reads. 
 2. A taxonomy (``taxa``) for the kept fungi, according to the match (naive Bayesian classifier) with UNITE [version = 9.0].
 
+<br><br>
+Briefly, the pipeline can be summed up as:
+
+<center>
+
+```mermaid
+flowchart TD
+raw[(Raw .fastq files)] -- Truncated reads (250bp fwd / 200 rev) <br> Primers removed <br> No N's allowed <br> trunQ =2 --> q(Quality filtered reads)-->m(Merged pairs)-- Consensus chim. removal -->chim(Chimera-removed from ASVs)-- Rarefaction 32 912 reads-->rar(Rarefied ASV table) 
+
+```
+</center>
+
+
 ##
 
 
