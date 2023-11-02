@@ -78,14 +78,6 @@ chim-- Rarefaction 32 912 reads-->rar(Rarefied ASV table)
 ```
 </center>
 
-another test
-
-```mermaid
-flowchart LR
-a(all files)-- test. <br> a -->B
-B-->C & a
-```
-
 
 ##
 
