@@ -64,7 +64,6 @@ Afterwards, we cleaned the output file `OutputITS.RData`, by removing unused obj
 <br><br>
 Briefly, the pipeline can be summed up as:
 
-<center>
 
 ```mermaid
 flowchart TD
@@ -74,7 +73,6 @@ m-- Consensus chim. removal -->chim(Chimera-removed from ASVs)
 chim-- Rarefaction 32 912 reads-->rar(Rarefied ASV table) 
 
 ```
-</center>
 
 another test
 
