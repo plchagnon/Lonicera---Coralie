@@ -55,38 +55,11 @@ Below, we outline data analyses allowing us to link soil properties and fungal c
 
 ## Bioinformatics
 
-Before proceeding with statistical analyses, we first processed raw ``.fastq`` sequence files using the R package ``dada2``. First, we quality-filtered sequences in order to [.........]
+Before proceeding with statistical analyses, we first processed raw ``.fastq`` sequence files using the R package ``dada2``. This was done using the [following script](./Scripts/Script_ITS%20Calcul%20Canada%20Coralie.R). <br><br> 
+Afterwards, we cleaned the output file `OutputITS.RData`, by removing unused objects from the environment, and sequencing samples belonging to another project, using the [following script](./Scripts/Script%20Coralie%20ITS%202023-09-14.R). We thus ended up with the `.RData` object ``Coralie ITS.RData``, available [here](./Coralie%20ITS.RData). This object contains :
 
-```R
-[...............]
-```
-
-Then, we proceeded with paired-end merging:
-
-```R
-[...............]
-```
-
-Next, we removed potential chimeras:
-
-```R
-[...............]
-
-```
-Finally, we assigned taxonomy using the UNITE database, version **XYZ**. Because of the size of the database, we had to submit this last job to a supercomputer using the following SLURM job:
-
-```sh
-
-```
-
-To correct for uneven sequencing depth per sample, we conducted sequence rarefaction in R:
-
-```r
-
-```
-
-<br>
-<br>
+1. A metacommunity (``comm``) with communities (i.e., samples, as rows) and fungi as columns. All sites with less than 5k reads are removed, and the remaining are rarefied at 32 912 reads. 
+2. A taxonomy (``taxa``) for the kept fungi, according to the match (naive Bayesian classifier) with UNITE [version = 9.0].
 
 ##
 
