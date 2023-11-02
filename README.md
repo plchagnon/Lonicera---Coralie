@@ -64,21 +64,22 @@ Afterwards, we cleaned the output file `OutputITS.RData`, by removing unused obj
 <br><br>
 Briefly, the pipeline can be summed up as:
 
+<center>
 
 ```mermaid
 flowchart TD
-raw(Raw .fastq files) -- Truncated reads (250bp fwd / 200 rev) ; Primers removed; No N's allowed ; trunQ = 2 --> q(Quality filtered reads)
+raw(Raw .fastq files) -- Truncated reads (250bp fwd / 200 rev) <br> Primers removed <br> No N's allowed <br> trunQ = 2 --> q(Quality filtered reads)
 q-->m(Merged pairs)
 m-- Consensus chim. removal -->chim(Chimera-removed from ASVs)
 chim-- Rarefaction 32 912 reads-->rar(Rarefied ASV table) 
-
 ```
+</center>
 
 another test
 
 ```mermaid
 flowchart LR
-a(all files)-- test -->B
+a(all files)-- test a -->B
 B-->C & a
 ```
 
