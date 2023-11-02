@@ -67,6 +67,7 @@ Briefly, the pipeline can be summed up as:
 <center>
 
 ```mermaid
+%%{init: {'themeVariables': { 'edgeLabelBackground': '#FFF'}}}%%
 flowchart TD
 raw(Raw fastq files) -- Truncated reads <br> Primers removed <br> No N allowed <br> trunQ 2 --> q(Quality filtered reads)
 q-->m(Merged pairs)
