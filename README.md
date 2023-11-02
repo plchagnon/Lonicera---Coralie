@@ -77,7 +77,7 @@ another test
 
 ```mermaid
 flowchart LR
-a(all files)-->B
+a(all files)-- test -->B
 B-->C & a
 ```
 
