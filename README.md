@@ -68,7 +68,7 @@ Briefly, the pipeline can be summed up as:
 
 ```mermaid
 flowchart TD
-raw[(Raw .fastq files)] -- Truncated reads (250bp fwd / 200 rev) <br> Primers removed <br> No N's allowed <br> trunQ =2 --> q(Quality filtered reads)-->m(Merged pairs)-- Consensus chim. removal -->chim(Chimera-removed from ASVs)-- Rarefaction 32 912 reads-->rar(Rarefied ASV table) 
+raw[(Raw .fastq files)] -- Truncated reads (250bp fwd / 200 rev) ; Primers removed; No N's allowed ; trunQ = 2 --> q(Quality filtered reads)-->m(Merged pairs)-- Consensus chim. removal -->chim(Chimera-removed from ASVs)-- Rarefaction 32 912 reads-->rar(Rarefied ASV table) 
 
 ```
 </center>
