@@ -73,6 +73,14 @@ raw[(Raw .fastq files)] -- Truncated reads (250bp fwd / 200 rev) <br> Primers re
 ```
 </center>
 
+another test
+
+```mermaid
+flowchart LR
+a-->B
+B-->C & a
+```
+
 
 ##
 
